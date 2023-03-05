@@ -1,17 +1,22 @@
-import React from 'react';
-import './App.css';
-import Header from './Header';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import './App.css'
+import Header from "./components/Header";
+import TinderCards from "./components/TinderCards"
 
-const App = () => {
+function App() {
   return (
-    <div className="App">
-      <h1>Let's build the Tinder Clone App 🚀 </h1>
-
-      {/* Header */}
+    <Router>
       <Header/>
+      <Switch>
+        <Route path="/chat">
+          <h1>I am the ChatPage</h1>
+        </Route>
+        <Route  path="/">
+          <TinderCards/>
+        </Route>
 
-    </div>
+      </Switch>
+    </Router>
   );
 }
-
 export default App;
