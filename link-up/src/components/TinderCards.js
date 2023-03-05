@@ -1,7 +1,17 @@
 import React, {useState} from 'react'
 
 const TinderCards = () => {
-    const [people, setPeople] = useState([]);
+    const [people, setPeople] = useState([
+        {
+            name: 'steve jobs',
+            url: ''
+        },
+        {
+            name: 'mark zuckerberg',
+            url: ''
+        },
+
+    ]);
     //const poeple = [];
 
   return (
