@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css'
-import Header from "./components/Header";
-import TinderCards from "./components/TinderCards"
+import Header from './Header';
+import TinderCards from "./TinderCards"
 
 function App() {
   return (
