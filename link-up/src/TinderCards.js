@@ -5,10 +5,10 @@ import "./TinderCards.css";
 
 
 const TinderCards = () => {
-    const [people, setPeople] = useState([
+    const [people,setPeople] = useState([
         {
             name: "Sadiq",
-            url: "./assets/d.jpg"
+            url: "./assets/s.jpg"
         },
     ]);
 
