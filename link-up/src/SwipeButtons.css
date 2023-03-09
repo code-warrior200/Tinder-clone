@@ -2,6 +2,7 @@
   position: fixed;
   bottom: 10vh;
   display: flex;
+  align-self: center;
   justify-content: space-evenly;
   width: 100%;
 }
